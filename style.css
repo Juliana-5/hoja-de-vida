@@ -1,0 +1,69 @@
+
+    /* Estilos generales para la página */
+    body {
+        font-family: Arial, sans-serif; /* Define la fuente principal de la página */
+        margin: 0; /* Elimina márgenes predeterminados */
+        padding: 20px; /* Añade un espacio alrededor del contenido */
+        background-color: #f4f4f4; /* Establece un color de fondo claro para la página */
+    }
+
+    /* Contenedor principal */
+    .container {
+        width: 100%; /* El contenedor ocupa todo el ancho disponible */
+        max-width: 800px; /* Limita el ancho máximo a 800px para pantallas grandes */
+        margin: 0 auto; /* Centra el contenedor horizontalmente */
+        background-color: #fff; /* Fondo blanco para el contenedor */
+        padding: 20px; /* Espaciado interno */
+        border-radius: 8px; /* Bordes redondeados */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra ligera */
+    }
+
+    /* Estilo de los encabezados (h1, h2, h3) */
+    h1, h2, h3 {
+        color: #333; /* Color de texto oscuro para los encabezados */
+    }
+
+    /* Estilo específico para el encabezado principal (h1) */
+    h1 {
+        text-align: center; /* Centra el texto del encabezado principal */
+    }
+
+    /* Título de las secciones */
+    .section-title {
+        border-bottom: 2px solid #3498db; /* Línea azul debajo del título */
+        margin-bottom: 10px; /* Espacio debajo del título */
+        padding-bottom: 5px; /* Espaciado interno debajo del texto */
+    }
+
+    /* Estilo para listas sin viñetas */
+    ul {
+        list-style-type: none; /* Elimina las viñetas predeterminadas */
+        padding: 0; /* Elimina el relleno de las listas */
+    }
+
+    /* Elementos individuales de las listas */
+    ul li {
+        margin-bottom: 8px; /* Espaciado entre elementos de la lista */
+    }
+
+    /* Información de contacto */
+    .contact-info {
+        text-align: center; /* Centra el contenido de la sección de contacto */
+        margin-bottom: 20px; /* Espacio inferior entre la sección de contacto y el resto del contenido */
+    }
+
+    /* Párrafos dentro de la sección de contacto */
+    .contact-info p {
+        margin: 5px 0; /* Espacio vertical entre las líneas de texto */
+    }
+
+    /* Estilo de listas específicas (habilidades, experiencia, educación) */
+    .skills-list, .experience-list, .education-list {
+        margin-bottom: 20px; /* Espacio inferior entre secciones de listas */
+    }
+
+    /* Elementos de la lista de habilidades */
+    .skills-list li {
+        display: inline-block; /* Muestra los elementos en línea */
+        margin-right: 15px; /* Espacio entre los elementos en línea */
+    }
